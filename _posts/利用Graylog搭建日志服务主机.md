@@ -14,7 +14,7 @@ categories:
 
 ### 实施
 
-#### 利用到的开源工具
+#### 利用到的工具
 linux -Ubuntu18.04 --操作系统
 Graylog            --日志分析工具
 贴个Graylog文档的地址 https://docs.graylog.org/
