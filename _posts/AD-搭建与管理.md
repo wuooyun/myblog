@@ -36,7 +36,7 @@ categories:
 IF NOT EXIST C:\Scr (goto 0) ELSE GOTO 1
 :0
 mkdir C:\Scr
-xcopy \\192.168.254.2\meituanIP\历史软件\图标\* C:\Scr\ /S /E /H
+xcopy \\192.168.254.2\IP\历史软件\图标\* C:\Scr\ /S /E /H
 goto :eof
 
 :1
@@ -63,7 +63,7 @@ cn=用户名 ou=OU
 
 相关脚本
 ```bat
-for /f "tokens=1,2,3,4,5 delims=," %a in (c:\AD.csv) do dsadd user "cn=%c,ou=SY3,DC=sanyou,dc=com" -samid %d -upn %d@sanyou.com -ln %a -fn %b -pwd %e -memberof cn=酒店在线,ou=SY3,dc=sanyou,dc=com -disabled no
+for /f "tokens=1,2,3,4,5 delims=," %a in (c:\AD.csv) do dsadd user "cn=%c,ou=SY3,DC=dahua,dc=com" -samid %d -upn %d@dahua.com -ln %a -fn %b -pwd %e -memberof cn=项目,ou=SY3,dc=dahua,dc=com -disabled no
 ```
 #### 漫游用户配置文件
 每个用户分配不同文件夹
