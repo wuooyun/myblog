@@ -21,7 +21,7 @@ categories:
 
 ### 开始安装
 
-参考官方文档 http://doc.gitea.io
+参考官方文档 http://docs.gitea.io
 
 安装完成后 直接用用户名和密码即可通过http的方式push和clone
 
